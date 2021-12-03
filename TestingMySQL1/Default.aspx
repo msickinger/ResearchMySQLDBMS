@@ -6,11 +6,12 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body style ="background-color:grey;">
     <form id="form1" runat="server">
-        <div style="margin:0 auto 0 auto; width:125px;">
+        <div style="margin:0 auto 0 auto; width:100px;">
+  <center><a href="https://lh3.googleusercontent.com/XqyRLVPKs2fCPQWK51pJxmWgzrlNjulPETIdBFzapa7PaptWnRBHqSPxohcYe9bFw-He36NanuwTTXWC7wDsPf8qvIIpzUapsnc9YOoFzUQKgTQ3ORqJVg0hK28ttbWIbIrOZvavjw=w2400?source=screenshot.guru"> <img align="left" src="https://lh3.googleusercontent.com/XqyRLVPKs2fCPQWK51pJxmWgzrlNjulPETIdBFzapa7PaptWnRBHqSPxohcYe9bFw-He36NanuwTTXWC7wDsPf8qvIIpzUapsnc9YOoFzUQKgTQ3ORqJVg0hK28ttbWIbIrOZvavjw=w180-h181-p-k" /> </a></center>
            <center> <asp:Label ID="Label1" runat="server" Text="Home Page Research Paper Database" Font-Names="Verdana"></asp:Label></center><br />
-            <center><img alt="" src="" /></center><br />
+           
             
             <center><asp:Label ID="Label2" runat="server" Text="Menu"></asp:Label> </center><br />
 

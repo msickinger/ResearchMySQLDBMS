@@ -9,7 +9,7 @@
 <body>
     
     <a href="Default.aspx">Home</a>
-    <p>Viewing all student research papers</p>
+    <p>Viewing all faculty research papers</p>
     <form id="form1" runat="server">
         <div>
             <center>
@@ -33,6 +33,10 @@
             <asp:TextBox ID="type" Text="Enter type of paper here" runat="server"></asp:TextBox><br />
             <asp:TextBox ID="p_year" Text="Enter year of publication" runat="server"></asp:TextBox><br />
             <asp:TextBox ID="center_name" Text="Enter name of research center here" runat="server"></asp:TextBox><br />
+            <asp:TextBox ID="j_name" Text="Enter journal name" runat="server"></asp:TextBox><br />
+                <asp:TextBox ID="volume" Text="Enter volume of journal" runat="server"></asp:TextBox><br />
+                <asp:TextBox ID="number" Text="Enter issue of journal" runat="server"></asp:TextBox><br />
+               
            
             <asp:Button ID="submitFacultyInfo" runat="server" Text="Submit data" OnClick="submitFacInfoEvent"/>
             </center>

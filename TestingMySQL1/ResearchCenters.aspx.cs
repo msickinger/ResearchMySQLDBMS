@@ -18,10 +18,10 @@ namespace ResearchMySQLDBMS
 
         public void findCenters()
         {
-            MySqlConnection con = new MySqlConnection("server = localhost; user id = root; database = ResearchPaper; password = pattern1");
+            MySqlConnection con = new MySqlConnection("server = localhost; user id = root; database = ResearchPaper3; password = pattern1");
             con.Open();
             //query to display research centers 
-            MySqlCommand cmd = new MySqlCommand("select * from res_center", con);
+            MySqlCommand cmd = new MySqlCommand("select * from res_center natural join res_dept", con);
             MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
             DataSet ds = new DataSet();
             adp.Fill(ds);

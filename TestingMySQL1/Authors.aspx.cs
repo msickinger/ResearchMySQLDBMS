@@ -17,7 +17,7 @@ namespace ResearchMySQLDBMS
 
         public void findAuthors()
         {
-            MySqlConnection con = new MySqlConnection("server = localhost; user id = root; database = ResearchPaper; password = pattern1");
+            MySqlConnection con = new MySqlConnection("server = localhost; user id = root; database = ResearchPaper3; password = pattern1");
             con.Open();
             //need query to display all authors 
             MySqlCommand cmd = new MySqlCommand("select * from author", con);

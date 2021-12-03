@@ -105,6 +105,33 @@ namespace ResearchMySQLDBMS
         protected global::System.Web.UI.WebControls.TextBox center_name;
 
         /// <summary>
+        /// j_name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox j_name;
+
+        /// <summary>
+        /// volume control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox volume;
+
+        /// <summary>
+        /// number control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox number;
+
+        /// <summary>
         /// submitFacultyInfo control.
         /// </summary>
         /// <remarks>
